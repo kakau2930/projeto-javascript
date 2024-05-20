@@ -12,15 +12,7 @@
     </main>
     <script src="sketch.js"></script>
   </body>
-
 </html>
-html, body {
-  margin: 0;
-  padding: 0;
-}
-canvas {
-  display: block;
-}
 function setup() {
   createCanvas(400, 400);
 }
@@ -69,9 +61,12 @@ function draw() {
     posicaoVertical++;
   }
   
-  if (mouseIsPressed){
-    cor = color(random(0,255), random(0,255), random(0,255), random(0,100));
-  }
-    
+ } if (mouseIsPressed){
+   }  cor = color(random(0,255), random(0,255), random(0,255), random(0,100));
+    html, body {
+  margin: 0;
+  padding: 0;
 }
-
+canvas {
+  display: block;
+}
